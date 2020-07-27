@@ -12,5 +12,5 @@ function solution(A, K) {
     
     let firstPart = A.slice(0,A.length-splitPoint);
     let lastPart = A.slice(A.length-splitPoint);
-    return lastPart.concat(firstPart);   
+    return lastPart.concat(firstPart);    
 }
